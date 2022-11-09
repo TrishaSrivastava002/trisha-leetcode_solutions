@@ -9,7 +9,7 @@ int f(int arr[],int idx,int totalSum,int sum,vector<vector<int>>& dp) {
 	        return abs((totalSum-sum)-sum);
 	    }
 	    
-	    if(dp[idx][sum]!=-2) return dp[idx][sum];
+	    if(dp[idx][sum]!=-1) return dp[idx][sum];
 	    
 	    int f1 = f(arr,idx+1,totalSum,sum+arr[idx],dp);
 	    int f2 = f(arr,idx+1,totalSum,sum,dp);
@@ -21,7 +21,7 @@ int f(int arr[],int idx,int totalSum,int sum,vector<vector<int>>& dp) {
 	   int totalSum =0;
 	    for(int i=0;i<n;i++) totalSum+=arr[i];
 	
-	    vector<vector<int>> dp(n,vector<int>(totalSum+1,-2));
+	    vector<vector<int>> dp(n,vector<int>(totalSum+1,-1));
 	    return f(arr,0,totalSum,0,dp);
 	} 
 };
