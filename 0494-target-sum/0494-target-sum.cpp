@@ -4,7 +4,7 @@ int solve(vector<int>& nums,vector<int> &dp,int target,int i,int sum){
     if(sum==target) return 1;
         else return 0;
     } 
-    //if(dp[i]!=-1) return dp[i]; dp[i]=
+    //if(dp[i]!=-1) return dp[i];
     int l=solve(nums,dp,target,i-1,sum+nums[i]);
     int r=solve(nums,dp,target,i-1,sum-nums[i]);
     return l+r;
