@@ -7,14 +7,15 @@ class Solution {
 	public:
 		int characterReplacement(string s, int k){
 		    int a[26]={0};
-		    int sum=INT_MIN,j=0;
+		    int sum=INT_MIN,j=0,m=0;
 		    for(int i=0;i<s.length();i++){
 		        sum=max(sum,++a[s[i]-'A']);
-		      if(i-j+1-sum>k){
+		      while(i-j+1-sum>k){
 		        a[s[j++]-'A']--;
-		      }  
+		      }
+		       m=max(m,i-j+1);
 		    }
-		    return s.length()-j;
+		    return m;
 		}
 
 };
