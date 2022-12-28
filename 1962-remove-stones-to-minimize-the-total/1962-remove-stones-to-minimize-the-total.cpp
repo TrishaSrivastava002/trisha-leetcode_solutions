@@ -5,7 +5,7 @@ public:
         int sum=0,n=piles.size();
         priority_queue<int> q;
         for(auto &it:piles) q.push(it);
-        while(k-- && !q.empty()){
+        while(k--){
             int top=q.top();
             q.pop();
             top=top-floor(top/2);
