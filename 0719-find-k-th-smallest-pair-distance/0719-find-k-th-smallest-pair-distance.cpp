@@ -17,7 +17,7 @@ public:
            if(solve(nums,k,mid)) e=mid;   
            else s=mid+1;
         }
-    return s;
+    return e;
         
     }
 };
