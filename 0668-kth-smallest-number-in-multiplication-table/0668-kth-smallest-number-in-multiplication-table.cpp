@@ -1,5 +1,5 @@
 class Solution{
-int solve(int m, int n, int k,int mid){
+bool solve(int m, int n, int k,int mid){
     int c=0,i=m,j=1;
    while(i>=1 && j<=n){ 
       if(i*j<=mid){
@@ -8,7 +8,7 @@ int solve(int m, int n, int k,int mid){
       } 
       else i--;
    }    
-    return c;
+    return c>=k;
 }
 public:
 int findKthNumber(int m, int n, int k){
@@ -16,7 +16,7 @@ int findKthNumber(int m, int n, int k){
     int res;
     while(s<=e){
        int mid=s+(e-s)/2;
-     if(solve(m,n,k,mid)>=k){
+     if(solve(m,n,k,mid)){
            res=mid;
            e=mid-1;
     }
