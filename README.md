@@ -1,6 +1,6 @@
 # trisha-leetcode_solutions
 <h1 align="center">Hi 👋, I'm Trisha Srivastava</h1>
-<h3 align="center">A passionate frontend developer and C++ Programmer from India</h3>
+<h3 align="center">A  Front-End Developer and a passionate C++ Programmer from India</h3>
 
 - 🔭 I’m currently working on [my coding skills](https://github.com/TrishaSrivastava002/trisha-leetcode_solutions)
 
