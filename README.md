@@ -18,7 +18,6 @@
 <p align="left">
 <a href="https://linkedin.com/in/trisha srivastava" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="trisha srivastava" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/trishasrivastav2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="trishasrivastav2" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/trisha002" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="trisha002" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/trishasrivastava002/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="trishasrivastava002/profile" height="30" width="40" /></a>
 </p>
 
