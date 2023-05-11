@@ -6,7 +6,7 @@ int solve(vector<int> &s1,vector<int> &s2,int i,int j,vector<vector<int>> &dp){
     if(s1[i]==s2[j]){
         return 1+solve(s1,s2,i+1,j+1,dp);
     }
-    
+    //as we the common integers to be on different indexes  
     return dp[i][j]=max(solve(s1,s2,i+1,j,dp),solve(s1,s2,i,j+1,dp));
     }
 public:
