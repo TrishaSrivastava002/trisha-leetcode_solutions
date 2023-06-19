@@ -10,9 +10,9 @@
 
 - 📝 I regularly solve questions on [https://leetcode.com/](https://leetcode.com/)
 
-- 💬 Ask me about **C/C++, DSA, SQL**
+- 💬 Ask me about **C/C++, DSA, SQL, PHP, Python, HTML, CSS and JavaScript**
 
-- 📫 How to reach me **trishasrivastava002@gmial.com**
+- 📫 How to reach me **trishasrivastava002@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
