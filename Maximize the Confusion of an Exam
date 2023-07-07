@@ -1,0 +1,21 @@
+class Solution {
+public:
+int maxConsecutiveAnswers(string ans, int k) {
+       int j=0,i=0,n=ans.size(),sum=INT_MIN,t=0,f=0;
+       if(n==k) return n; 
+       while(i<n){
+         if(ans[i]=='T') t+=1;
+         else f+=1;
+//THE QUESTION DOES NOT DEMAND THE SUBSTRING TO HAVE THE SAME LETTER OVER THE WHOLE SUBSTRING IT CAN BE LIKE "TTTTFFFFFFTTTTTT"           
+//if one is above k and the other is below k then constraints are getting followed
+         while(t>k && f>k){
+            if(ans[j]=='T') t--;
+            else f--;
+            j++; 
+         }
+         if(i-j+1>sum) sum=i-j+1;  
+         i++;  
+       }
+        return sum;
+    }
+};
